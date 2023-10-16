@@ -4,15 +4,13 @@ setTimeout(() => {
   }, 500);
   
   window.onload=()=>{
+    let user_score=0;
+    let ai_score=0;
     if (localStorage.getItem('userScore')) {
       user_score = parseInt(localStorage.getItem('userScore'));
       ai_score = parseInt(localStorage.getItem('pcScore'));
       scoreNumber.innerText = user_score;
       scoreNumberAI.innerText = ai_score;
-    }
-    else{
-      user_score=0;
-      ai_score=0;
     }
   }
   // DOM
