@@ -12,6 +12,10 @@ setTimeout(() => {
       scoreNumber.innerText = user_score;
       scoreNumberAI.innerText = ai_score;
     }
+    else{
+        user_score=0;
+        ai_score=0;
+    }
   }
   // DOM
   const btnRules = document.querySelector(".rules-btn");
