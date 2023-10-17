@@ -4,6 +4,7 @@ setTimeout(() => {
   }, 500);
   
   window.onload=()=>{
+    let ai_score =0;
     if (localStorage.getItem('userScore')) {
       user_score = parseInt(localStorage.getItem('userScore'));
       ai_score = parseInt(localStorage.getItem('pcScore'));
