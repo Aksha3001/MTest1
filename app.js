@@ -6,7 +6,7 @@ setTimeout(() => {
   window.onload=()=>{
     if (localStorage.getItem('userScore')) {
       user_score = parseInt(localStorage.getItem('userScore'));
-      ai_score = parseInt(localStorage.getItem('pcScore'));
+      ai_score = parseInt(localStorage.getItem('aiScore'));
       scoreNumber.innerText = user_score;
       scoreNumberAI.innerText = ai_score;
     }
