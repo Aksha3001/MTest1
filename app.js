@@ -11,8 +11,8 @@ setTimeout(() => {
       scoreNumberAI.innerText = ai_score;
     }
     else{
-        user_score=0;
-        ai_score=0;
+      user_score=0;
+      ai_score=0;
     }
   }
   // DOM
@@ -106,7 +106,7 @@ function displayWinner(results) {
         resultDivs[1].classList.toggle("winner");
         playAgainBtn.innerText="play again";
         aiKeepScore(1);
-    } else{
+    } else {
       resultText.innerText = "tie up";
       playAgainBtn.innerText="replay";
     }
@@ -179,4 +179,3 @@ btnClose.addEventListener("click", () => {
   modalRules.classList.toggle("show-modal");
 });
 
-// toggle()
