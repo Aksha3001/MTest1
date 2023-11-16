@@ -7,13 +7,13 @@ setTimeout(() => {
     if (localStorage.getItem('userScore')) {
       user_score = parseInt(localStorage.getItem('userScore'));
       ai_score = parseInt(localStorage.getItem('aiScore'));
-      scoreNumber.innerText = user_score;
-      scoreNumberAI.innerText = ai_score;
     }
     else{
       user_score=0;
       ai_score=0;
     }
+      scoreNumber.innerText = user_score;
+      scoreNumberAI.innerText = ai_score;
   }
   // DOM
   const btnRules = document.querySelector(".rules-btn");
