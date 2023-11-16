@@ -51,7 +51,7 @@ const scoreNumberAI = document.querySelector(".score__number__AI");
 const nextrulesbtn=document.querySelector(".next-btn");
 const userHurray = document.querySelector(".winning");
 const scoreboard = document.querySelector(".header");
-
+let ai_score = 0;
 
 
 // Game Logic
