@@ -126,9 +126,9 @@ function keepScore(point) {
 }
 
 function aiKeepScore(point){
-    ai_score+=point;
+    ai_score += point;
     scoreNumberAI.innerText = ai_score;
-    localStorage.setItem('pcScore',ai_score);
+    localStorage.setItem('aiScore',ai_score);
 }
 
 
